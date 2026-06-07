@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
   <style>
     text {
       font-family: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -47,7 +47,7 @@
 
   <g filter="url(#shadow)">
     <!-- Terminal Background -->
-    <rect width="800" height="220" fill="#0d1117" rx="12" ry="12" stroke="#30363d" stroke-width="1.5"/>
+    <rect width="800" height="200" fill="#0d1117" rx="12" ry="12" stroke="#30363d" stroke-width="1.5"/>
     
     <!-- Header/Title Bar -->
     <path d="M 0,12 A 12,12 0 0,1 12,0 L 788,0 A 12,12 0 0,1 800,12 L 800,36 L 0,36 Z" fill="#161b22"/>
@@ -72,11 +72,10 @@
     <g class="info-sec" transform="translate(25, 95)">
       <text y="5"><tspan class="key">Email:</tspan><tspan x="100" class="val">kumarrshet701@gmail.com</tspan></text>
       <text y="25"><tspan class="key">LinkedIn:</tspan><tspan x="100" class="val">linkedin.com/in/kumar-r-shet</tspan></text>
-      <text y="45"><tspan class="key">GitHub:</tspan><tspan x="100" class="val">github.com/Imkumar80</tspan></text>
     </g>
     
     <!-- Exit/Logout (fades in later) -->
-    <g class="logout-sec" transform="translate(25, 175)">
+    <g class="logout-sec" transform="translate(25, 155)">
       <text class="prompt">guest@profile:~$</text>
       <text x="145" class="command">exit</text>
       <text y="25" class="accent">logout</text>
