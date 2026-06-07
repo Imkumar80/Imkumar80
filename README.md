@@ -43,18 +43,6 @@ Hi, I'm Kumar — an AI/ML engineer, researcher, and open source enthusiast. I b
 ## 📈 GitHub Stats
 ![GitHub stats](https://github-readme-stats.shion.dev/api?username=Imkumar80&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
 
-![GitHub streak](https://streak-stats.demolab.com/?user=Imkumar80&theme=dark&hide_border=false)
-
-![Top languages](https://github-readme-stats.shion.dev/api/top-langs/?username=Imkumar80&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![GitHub trophies](https://github-profile-trophy.vercel.app/?username=Imkumar80&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-## 🔝 Top Contributed Repo
-![Top contributed repo](https://github-contributor-stats.vercel.app/api?username=Imkumar80&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
----
-
 [![Profile views](https://komarev.com/ghpvc/?username=Imkumar80&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
