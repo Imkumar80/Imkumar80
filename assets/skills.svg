@@ -1,4 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <defs>
+    <!-- Animated Border Gradient -->
+    <linearGradient id="skillsBorderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6">
+        <animate attributeName="stop-color" values="#3b82f6;#ec4899;#10b981;#3b82f6" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#3b82f6;#ec4899;#8b5cf6" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#ec4899">
+        <animate attributeName="stop-color" values="#ec4899;#10b981;#3b82f6;#ec4899" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+
   <style>
     text {
       font-family: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -56,12 +71,12 @@
   </filter>
 
   <g filter="url(#shadow)">
-    <!-- Terminal Background -->
-    <rect width="800" height="340" fill="#0d1117" rx="12" ry="12" stroke="#30363d" stroke-width="1.5"/>
+    <!-- Terminal Background with Animated Glowing Border -->
+    <rect width="800" height="340" fill="#0d1117" rx="12" ry="12" stroke="url(#skillsBorderGradient)" stroke-width="2.5"/>
     
     <!-- Header/Title Bar -->
-    <path d="M 0,12 A 12,12 0 0,1 12,0 L 788,0 A 12,12 0 0,1 800,12 L 800,36 L 0,36 Z" fill="#161b22"/>
-    <line x1="0" y1="36" x2="800" y2="36" stroke="#30363d" stroke-width="1.5"/>
+    <path d="M 1.25,12 A 10.75,10.75 0 0,1 12,1.25 L 788,1.25 A 10.75,10.75 0 0,1 798.75,12 L 798.75,36 L 1.25,36 Z" fill="#161b22"/>
+    <line x1="0" y1="36" x2="800" y2="36" stroke="url(#skillsBorderGradient)" stroke-width="1"/>
     
     <!-- Window Controls -->
     <circle cx="20" cy="18" r="6" fill="#ff5f56"/>
