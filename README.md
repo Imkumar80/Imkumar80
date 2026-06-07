@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Section (Intro & Whoami Terminal) -->
-<img src="./assets/header.svg?v=2" width="800" alt="Terminal Header" />
+<img src="./assets/term-header.svg" width="800" alt="Terminal Header" />
 
 <br/><br/>
 
