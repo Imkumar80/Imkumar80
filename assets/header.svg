@@ -1,38 +1,183 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280">
   <style>
-    text { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 14px; dominant-baseline: middle; }
-    @keyframes ln0 { 0%,0% { opacity: 0 } 2%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
-    @keyframes ln1 { 0%,3% { opacity: 0 } 5%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
-    @keyframes ln2 { 0%,6% { opacity: 0 } 8%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
-    @keyframes ln3 { 0%,9% { opacity: 0 } 11%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
-    @keyframes ln4 { 0%,12% { opacity: 0 } 14%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
-    @keyframes ln5 { 0%,15% { opacity: 0 } 17%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
-    @keyframes ln6 { 0%,18% { opacity: 0 } 20%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
-    @keyframes ln7 { 0%,21% { opacity: 0 } 23%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
-    @keyframes ln8 { 0%,24% { opacity: 0 } 26%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
-    @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
-    .ln0 { animation: ln0 15s ease-in-out infinite }
-    .ln1 { animation: ln1 15s ease-in-out infinite }
-    .ln2 { animation: ln2 15s ease-in-out infinite }
-    .ln3 { animation: ln3 15s ease-in-out infinite }
-    .ln4 { animation: ln4 15s ease-in-out infinite }
-    .ln5 { animation: ln5 15s ease-in-out infinite }
-    .ln6 { animation: ln6 15s ease-in-out infinite }
-    .ln7 { animation: ln7 15s ease-in-out infinite }
-    .ln8 { animation: ln8 15s ease-in-out infinite }
+    text {
+      font-family: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 14px;
+      fill: #e6edf3;
+    }
+    .prompt {
+      fill: #4ade80;
+      font-weight: bold;
+    }
+    .command {
+      fill: #f1f5f9;
+    }
+    .comment {
+      fill: #8b949e;
+      font-style: italic;
+    }
+    .key {
+      fill: #60a5fa;
+    }
+    .val {
+      fill: #f8fafc;
+    }
+    .accent {
+      fill: #f43f5e;
+    }
+    .window-title {
+      fill: #8b949e;
+      font-size: 12px;
+    }
+    
+    /* Blinking cursor animation */
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .cursor {
+      animation: blink 1s step-end infinite;
+    }
+    
+    /* Character typing keyframes */
+    @keyframes charFade {
+      0%, 3.3% { opacity: 0; }
+      4%, 90% { opacity: 1; }
+      95%, 100% { opacity: 0; }
+    }
+    .char {
+      opacity: 0;
+      animation: charFade 15s infinite;
+    }
+    
+    /* Dynamic cursor movement keyframes */
+    @keyframes cursorMove {
+      0%, 3.3% { transform: translateX(0px); }
+      4.1% { transform: translateX(8.4px); }
+      4.9% { transform: translateX(16.8px); }
+      5.7% { transform: translateX(25.2px); }
+      6.5% { transform: translateX(33.6px); }
+      7.3% { transform: translateX(42.0px); }
+      8.1% { transform: translateX(50.4px); }
+      8.9% { transform: translateX(58.8px); }
+      9.7% { transform: translateX(67.2px); }
+      10.5% { transform: translateX(75.6px); }
+      11.3% { transform: translateX(84.0px); }
+      12.1% { transform: translateX(92.4px); }
+      12.9% { transform: translateX(100.8px); }
+      13.7% { transform: translateX(109.2px); }
+      14.5% { transform: translateX(117.6px); }
+      15.3% { transform: translateX(126.0px); }
+      16.1% { transform: translateX(134.4px); }
+      16.9% { transform: translateX(142.8px); }
+      17.7% { transform: translateX(151.2px); }
+      18.5% { transform: translateX(159.6px); }
+      19.3% { transform: translateX(168.0px); }
+      20.1% { transform: translateX(176.4px); }
+      20.9%, 90% { transform: translateX(184.8px); }
+      95%, 100% { transform: translateX(0px); }
+    }
+    .typing-cursor {
+      animation: cursorMove 15s infinite, blink 1s step-end infinite;
+    }
+    
+    /* Fade in for subsequent lines */
+    @keyframes lineFade {
+      0%, 25% { opacity: 0; }
+      28%, 90% { opacity: 1; }
+      95%, 100% { opacity: 0; }
+    }
+    .fade-line {
+      opacity: 0;
+      animation: lineFade 15s infinite;
+    }
+    
+    @keyframes cmd2Fade {
+      0%, 21% { opacity: 0; }
+      24%, 90% { opacity: 1; }
+      95%, 100% { opacity: 0; }
+    }
+    .fade-cmd2 {
+      opacity: 0;
+      animation: cmd2Fade 15s infinite;
+    }
   </style>
-  <rect width="100%" height="100%" fill="#0a0a0b" rx="14" ry="14"/>
-  <g opacity="0.5">
-    <circle cx="24" cy="24" r="6" fill="#ff5f57"/>
-    <circle cx="44" cy="24" r="6" fill="#febc2e"/>
-    <circle cx="64" cy="24" r="6" fill="#28c840"/>
+
+  <!-- Drop Shadow Filter -->
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+    <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+  </filter>
+
+  <g filter="url(#shadow)">
+    <!-- Terminal Background -->
+    <rect width="800" height="280" fill="#0d1117" rx="12" ry="12" stroke="#30363d" stroke-width="1.5"/>
+    
+    <!-- Header/Title Bar -->
+    <path d="M 0,12 A 12,12 0 0,1 12,0 L 788,0 A 12,12 0 0,1 800,12 L 800,36 L 0,36 Z" fill="#161b22"/>
+    <line x1="0" y1="36" x2="800" y2="36" stroke="#30363d" stroke-width="1.5"/>
+    
+    <!-- Window Controls (Mac style) -->
+    <circle cx="20" cy="18" r="6" fill="#ff5f56"/>
+    <circle cx="40" cy="18" r="6" fill="#ffbd2e"/>
+    <circle cx="60" cy="18" r="6" fill="#27c93f"/>
+    
+    <!-- Title -->
+    <text x="400" y="19" class="window-title" text-anchor="middle">guest@profile: ~</text>
+    
+    <!-- Terminal Body Content -->
+    <!-- Line 1: First Prompt -->
+    <g transform="translate(25, 70)">
+      <text class="prompt">guest@profile:~$</text>
+      <text x="145" class="command">./introduce</text>
+    </g>
+    
+    <!-- Line 2: Typed Output -->
+    <g transform="translate(25, 95)">
+      <text class="val">
+        <tspan class="char" style="animation-delay: 0.50s">h</tspan>
+        <tspan class="char" style="animation-delay: 0.62s">i</tspan>
+        <tspan class="char" style="animation-delay: 0.74s"> </tspan>
+        <tspan class="char" style="animation-delay: 0.86s">,</tspan>
+        <tspan class="char" style="animation-delay: 0.98s"> </tspan>
+        <tspan class="char" style="animation-delay: 1.10s">I</tspan>
+        <tspan class="char" style="animation-delay: 1.22s"> </tspan>
+        <tspan class="char" style="animation-delay: 1.34s">a</tspan>
+        <tspan class="char" style="animation-delay: 1.46s">m</tspan>
+        <tspan class="char" style="animation-delay: 1.58s"> </tspan>
+        <tspan class="char" style="animation-delay: 1.70s">K</tspan>
+        <tspan class="char" style="animation-delay: 1.82s">u</tspan>
+        <tspan class="char" style="animation-delay: 1.94s">m</tspan>
+        <tspan class="char" style="animation-delay: 2.06s">a</tspan>
+        <tspan class="char" style="animation-delay: 2.18s">r</tspan>
+        <tspan class="char" style="animation-delay: 2.30s"> </tspan>
+        <tspan class="char" style="animation-delay: 2.42s">R</tspan>
+        <tspan class="char" style="animation-delay: 2.54s"> </tspan>
+        <tspan class="char" style="animation-delay: 2.66s">S</tspan>
+        <tspan class="char" style="animation-delay: 2.78s">h</tspan>
+        <tspan class="char" style="animation-delay: 2.90s">e</tspan>
+        <tspan class="char" style="animation-delay: 3.02s">t</tspan>
+      </text>
+      <!-- Moving cursor during typing -->
+      <rect class="typing-cursor" x="0" y="-12" width="8" height="15" fill="#e6edf3"/>
+    </g>
+    
+    <!-- Line 3: Second Prompt (appears after typing finishes) -->
+    <g class="fade-cmd2" transform="translate(25, 130)">
+      <text class="prompt">guest@profile:~$</text>
+      <text x="145" class="command">whoami --details</text>
+    </g>
+    
+    <!-- Details Group (fades in after second prompt) -->
+    <g class="fade-line" transform="translate(25, 155)">
+      <!-- Details Table Output -->
+      <text y="10"><tspan class="key">Name:</tspan><tspan x="100" class="val">Kumar R Shet</tspan></text>
+      <text y="35"><tspan class="key">Role:</tspan><tspan x="100" class="val">AI/ML Engineer | ML Researcher | Open Source Enthusiast</tspan></text>
+      <text y="60"><tspan class="key">Focus:</tspan><tspan x="100" class="val">Scalable AI Systems | ML Inference Optimization | Production Deployments</tspan></text>
+      <text y="85"><tspan class="key">Location:</tspan><tspan x="100" class="val">Bengaluru, India</tspan></text>
+      
+      <!-- Blinking cursor at the very end of terminal -->
+      <rect class="cursor" x="0" y="103" width="8" height="15" fill="#e6edf3"/>
+      <text x="15" y="115" class="prompt">guest@profile:~$</text>
+    </g>
   </g>
-  <text x="400" y="28" fill="#5a5a64" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle">~ / readme</text>
-  <g class="ln0" transform="translate(40 74)"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">./identity --reveal</text></g>
-  <g class="ln2" transform="translate(60 118)"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">name</text><text x="160" fill="#e7e7ea">Kumar_R_Shet</text></g>
-  <g class="ln3" transform="translate(60 140)"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">role</text><text x="160" fill="#e7e7ea">Software Engineer/AI_Researcher</text></g>
-  <g class="ln4" transform="translate(60 162)"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">org</text><text x="160" fill="#e7e7ea">JSSTEB/IISC</text></g>
-  <g class="ln5" transform="translate(60 184)"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">location</text><text x="160" fill="#e7e7ea">Bengaluru</text></g>
-  <g class="ln6" transform="translate(60 206)"><text fill="#5a5a64">[</text><text x="6" fill="#4ade80">→</text><text x="20" fill="#5a5a64">]</text><text x="40" fill="#5a5a64">tagline</text><text x="160" fill="#e7e7ea">Grit, Passion, Inspire</text></g>
-  <g class="ln8" transform="translate(40 250)"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">ready</text><rect x="78" y="-7" width="9" height="14" fill="#e7e7ea" style="animation: blink 1s steps(1) infinite" /></g>
 </svg>
