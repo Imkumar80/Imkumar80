@@ -138,9 +138,9 @@
       <text x="145" class="command">./introduce</text>
     </g>
     
-    <!-- Line 2: Typed Output (24px font size) -->
+    <!-- Line 2: Typed Output (24px font size, fully gradient blue) -->
     <g transform="translate(25, 105)">
-      <text font-size="24" class="val" font-weight="bold">
+      <text font-size="24" class="name-gradient" font-weight="bold">
         <tspan class="char" style="animation-delay: 0.50s">H</tspan>
         <tspan class="char" style="animation-delay: 0.62s">i</tspan>
         <tspan class="char" style="animation-delay: 0.74s"> </tspan>
@@ -152,21 +152,18 @@
         <tspan class="char" style="animation-delay: 1.46s">a</tspan>
         <tspan class="char" style="animation-delay: 1.58s">m</tspan>
         <tspan class="char" style="animation-delay: 1.70s"> </tspan>
-        <!-- Large gradient name typing -->
-        <tspan class="name-gradient">
-          <tspan class="char" style="animation-delay: 1.82s">K</tspan>
-          <tspan class="char" style="animation-delay: 1.94s">u</tspan>
-          <tspan class="char" style="animation-delay: 2.06s">m</tspan>
-          <tspan class="char" style="animation-delay: 2.18s">a</tspan>
-          <tspan class="char" style="animation-delay: 2.30s">r</tspan>
-          <tspan class="char" style="animation-delay: 2.42s"> </tspan>
-          <tspan class="char" style="animation-delay: 2.54s">R</tspan>
-          <tspan class="char" style="animation-delay: 2.66s"> </tspan>
-          <tspan class="char" style="animation-delay: 2.78s">S</tspan>
-          <tspan class="char" style="animation-delay: 2.90s">h</tspan>
-          <tspan class="char" style="animation-delay: 3.02s">e</tspan>
-          <tspan class="char" style="animation-delay: 3.14s">t</tspan>
-        </tspan>
+        <tspan class="char" style="animation-delay: 1.82s">K</tspan>
+        <tspan class="char" style="animation-delay: 1.94s">u</tspan>
+        <tspan class="char" style="animation-delay: 2.06s">m</tspan>
+        <tspan class="char" style="animation-delay: 2.18s">a</tspan>
+        <tspan class="char" style="animation-delay: 2.30s">r</tspan>
+        <tspan class="char" style="animation-delay: 2.42s"> </tspan>
+        <tspan class="char" style="animation-delay: 2.54s">R</tspan>
+        <tspan class="char" style="animation-delay: 2.66s"> </tspan>
+        <tspan class="char" style="animation-delay: 2.78s">S</tspan>
+        <tspan class="char" style="animation-delay: 2.90s">h</tspan>
+        <tspan class="char" style="animation-delay: 3.02s">e</tspan>
+        <tspan class="char" style="animation-delay: 3.14s">t</tspan>
         <tspan class="char" style="animation-delay: 3.26s">!</tspan>
       </text>
       <!-- Moving cursor during typing -->
