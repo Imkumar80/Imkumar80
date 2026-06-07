@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320">
+  <style>
+    text { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 14px; dominant-baseline: middle; }
+    @keyframes ln0 { 0%,0% { opacity: 0 } 2%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
+    @keyframes ln1 { 0%,4% { opacity: 0 } 6%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
+    @keyframes ln2 { 0%,8% { opacity: 0 } 10%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
+    @keyframes ln3 { 0%,12% { opacity: 0 } 14%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
+    @keyframes ln4 { 0%,16% { opacity: 0 } 18%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
+    @keyframes ln5 { 0%,20% { opacity: 0 } 22%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
+    @keyframes ln6 { 0%,24% { opacity: 0 } 26%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
+    @keyframes ln7 { 0%,28% { opacity: 0 } 30%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
+    @keyframes ln8 { 0%,32% { opacity: 0 } 34%,88% { opacity: 1 } 95%,100% { opacity: 0 } }
+    @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+    .ln0 { animation: ln0 15s ease-in-out infinite }
+    .ln1 { animation: ln1 15s ease-in-out infinite }
+    .ln2 { animation: ln2 15s ease-in-out infinite }
+    .ln3 { animation: ln3 15s ease-in-out infinite }
+    .ln4 { animation: ln4 15s ease-in-out infinite }
+    .ln5 { animation: ln5 15s ease-in-out infinite }
+    .ln6 { animation: ln6 15s ease-in-out infinite }
+    .ln7 { animation: ln7 15s ease-in-out infinite }
+    .ln8 { animation: ln8 15s ease-in-out infinite }
+  </style>
+  <rect width="100%" height="100%" fill="#0a0a0b" rx="14" ry="14"/>
+  <g opacity="0.5">
+    <circle cx="24" cy="24" r="6" fill="#ff5f57"/>
+    <circle cx="44" cy="24" r="6" fill="#febc2e"/>
+    <circle cx="64" cy="24" r="6" fill="#28c840"/>
+  </g>
+  <text x="400" y="28" fill="#5a5a64" font-family="ui-monospace, monospace" font-size="11" text-anchor="middle">~ / about.md</text>
+  <g class="ln0" transform="translate(40 68)"><text fill="#4ade80">$</text><text x="20" fill="#e7e7ea">cat ~/about.md</text></g>
+  <g class="ln1" transform="translate(40 112)"><text fill="#5a5a64"># </text><text x="22" fill="#e7e7ea">Hi, I&apos;m Kumar_R_Shet</text></g>
+  <g class="ln2" transform="translate(40 134)"><text fill="#4ade80">&gt;</text><text x="20" fill="#e7e7ea">🚀 AI/ML Engineer | ML Researcher | Open Source Enthusiast Information Science &amp;</text></g>
+  <g class="ln3" transform="translate(40 156)"><text fill="#4ade80">&gt;</text><text x="20" fill="#e7e7ea">Engineering student with experience building scalable AI systems, optimizing ML</text></g>
+  <g class="ln4" transform="translate(40 178)"><text fill="#4ade80">&gt;</text><text x="20" fill="#e7e7ea">inference pipelines, and deploying production-ready machine learning solutions. 🏆</text></g>
+  <g class="ln5" transform="translate(40 200)"><text fill="#4ade80">&gt;</text><text x="20" fill="#e7e7ea">Highlights: AWS Student Builder Group On-Campus Leader Multiple Inter-College…</text></g>
+  <g class="ln6" transform="translate(40 244)"><text fill="#5a5a64"># </text><text x="22" fill="#e7e7ea">tags</text></g>
+  <g class="ln7" transform="translate(40 266)"><text fill="#5a5a64">[ Software Engineer/AI_Researcher ]  [ JSSTEB/IISC ]  [ Bengaluru ]</text></g>
+  <g class="ln8" transform="translate(40 310)"><text fill="#4ade80">$</text><rect x="20" y="-7" width="9" height="14" fill="#e7e7ea" style="animation: blink 1s steps(1) infinite" /></g>
+</svg>
