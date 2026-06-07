@@ -1,12 +1,12 @@
 <div align="center">
 
 <!-- Header Section (Intro & Whoami Terminal) -->
-<img src="./assets/header.svg" width="800" alt="Terminal Header" />
+<img src="./assets/header.svg?v=1" width="800" alt="Terminal Header" />
 
 <br/><br/>
 
 <!-- Highlights Section -->
-<img src="./assets/about.svg" width="800" alt="Highlights Terminal" />
+<img src="./assets/about.svg?v=1" width="800" alt="Highlights Terminal" />
 
 <br/><br/>
 
@@ -21,17 +21,17 @@
 <br/>
 
 <!-- Tech Stack Section -->
-<img src="./assets/skills.svg" width="800" alt="Tech Stack Terminal" />
+<img src="./assets/skills.svg?v=1" width="800" alt="Tech Stack Terminal" />
 
 <br/><br/>
 
 <!-- GitHub Live Stats Section -->
-<img src="./assets/gh-stats.svg" width="800" alt="GitHub Stats Terminal" />
+<img src="./assets/gh-stats.svg?v=1" width="800" alt="GitHub Stats Terminal" />
 
 <br/><br/>
 
 <!-- Footer Section (Contact & Exit Terminal) -->
-<img src="./assets/footer.svg" width="800" alt="Footer Terminal" />
+<img src="./assets/footer.svg?v=1" width="800" alt="Footer Terminal" />
 
 <br/><br/>
 
