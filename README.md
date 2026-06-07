@@ -1,48 +1,76 @@
-# 💫 Kumar R Shet
+<div align="center">
 
-Hi, I'm Kumar — an AI/ML engineer, researcher, and open source enthusiast. I build scalable AI systems, optimize inference pipelines, and deploy production-ready machine learning solutions.
+<img src="./assets/header.svg" width="800" alt="Terminal header for Kumar R Shet" />
 
-## 🚀 About Me
-- Information Science & Engineering student
-- Experience with AI/ML research, cloud deployment, and full-stack model applications
-- Passionate about open source, AI research, and developer communities
+<img src="./assets/about.svg" width="800" alt="Terminal about section" />
 
-## 🏆 Highlights
-- AWS Student Builder Group On-Campus Leader
-- Multiple inter-college technical event winner
-- Former AI/ML research intern at IISc
-- Active contributor to open source projects
+<img src="./assets/skills.svg" width="800" alt="Terminal skills section" />
 
-## 🌐 Connect
-- Email: [kumarrshet701@gmail.com](mailto:kumarrshet701@gmail.com)
-- LinkedIn: [linkedin.com/in/kumar-r-shet-4712552a1](https://www.linkedin.com/in/kumar-r-shet-4712552a1)
-- Instagram: [@kumarr_shet](https://instagram.com/kumarr_shet)
-- X: [@KumarShet192579](https://x.com/KumarShet192579)
+<img src="./assets/gh-stats.svg" width="800" alt="Terminal GitHub stats section" />
 
-## 💻 Tech Stack
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0.svg?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-%23121011.svg?style=flat-square&logo=gnu-bash&logoColor=white)
+</div>
 
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-%23039BE5.svg?style=flat-square&logo=firebase&logoColor=white)
-![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=flat-square&logo=render&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=flat-square&logo=vercel&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-%23430098.svg?style=flat-square&logo=heroku&logoColor=white)
+## `$ whoami`
 
-![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat-square&logo=anaconda&logoColor=white)
-![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=flat-square&logo=django&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=flat-square&logo=streamlit&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE.svg?style=flat-square&logo=apache-airflow&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-000000.svg?style=flat-square&logo=nvidia&logoColor=green)
+```bash
+name="Kumar R Shet"
+role="AI/ML Engineer | ML Researcher | Open Source Enthusiast"
+focus=("scalable AI systems" "ML inference optimization" "production ML deployments")
+location="Bengaluru, India"
+```
 
-## 📈 GitHub Stats
-![GitHub stats](https://github-readme-stats.shion.dev/api?username=Imkumar80&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+## `$ cat highlights.log`
 
-[![Profile views](https://komarev.com/ghpvc/?username=Imkumar80&icon=0&color=0)](https://visitcount.itsvg.in)
+```txt
+[ok] AWS Student Builder Group On-Campus Leader
+[ok] Multiple Inter-College Technical Event Winner
+[ok] Open Source and AI Research Enthusiast
+[ok] Ex AI/ML Research Intern at IISC
+```
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## `$ connect --socials`
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/kumarr_shet)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kumar-r-shet-4712552a1/)
+[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/KumarShet192579)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kumarrshet701@gmail.com)
+
+## `$ stack --list`
+
+```txt
+Languages     Python, TypeScript, JavaScript, Java, C++, Bash
+AI/ML         PyTorch, TensorFlow, Keras, scikit-learn, NumPy, Pandas, SciPy, MLflow
+Cloud/DevOps  AWS, Google Cloud, Firebase, Render, Vercel, Heroku, GitHub Actions
+Backend/Data  Django, Streamlit, Airflow, Cassandra, DynamoDB, MySQL, MongoDB, Postgres, Redis, SQLite, Supabase
+Tools         Git, GitHub, GitLab, Figma, Framer, Anaconda, CUDA
+```
+
+## `$ gh stats --live`
+
+<p align="center">
+  <img src="https://github-readme-stats.shion.dev/api?username=Imkumar80&theme=dark&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub stats" />
+  <br />
+  <img src="https://streak-stats.demolab.com/?user=Imkumar80&theme=dark&hide_border=false" alt="GitHub streak" />
+  <br />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Imkumar80&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top languages" />
+</p>
+
+## `$ trophy --github`
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Imkumar80&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub trophies" />
+</p>
+
+## `$ top-repos --contributed`
+
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=Imkumar80&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top contributed repositories" />
+</p>
+
+<div align="center">
+
+<img src="./assets/footer.svg" width="800" alt="Terminal footer" />
+
+[![](https://komarev.com/ghpvc/?username=Imkumar80&icon=0&color=0)](https://visitcount.itsvg.in)
+
+</div>
