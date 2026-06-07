@@ -1,4 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="290" viewBox="0 0 800 290">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+
   <style>
     text {
       font-family: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -12,22 +20,19 @@
     .command {
       fill: #f1f5f9;
     }
-    .comment {
-      fill: #8b949e;
-      font-style: italic;
-    }
     .key {
       fill: #60a5fa;
     }
     .val {
       fill: #f8fafc;
     }
-    .accent {
-      fill: #f43f5e;
-    }
     .window-title {
       fill: #8b949e;
       font-size: 12px;
+    }
+    .name-gradient {
+      fill: url(#blueGradient);
+      font-weight: bold;
     }
     
     /* Blinking cursor animation */
@@ -110,7 +115,7 @@
 
   <g filter="url(#shadow)">
     <!-- Terminal Background -->
-    <rect width="800" height="280" fill="#0d1117" rx="12" ry="12" stroke="#30363d" stroke-width="1.5"/>
+    <rect width="800" height="290" fill="#0d1117" rx="12" ry="12" stroke="#30363d" stroke-width="1.5"/>
     
     <!-- Header/Title Bar -->
     <path d="M 0,12 A 12,12 0 0,1 12,0 L 788,0 A 12,12 0 0,1 800,12 L 800,36 L 0,36 Z" fill="#161b22"/>
@@ -144,18 +149,21 @@
         <tspan class="char" style="animation-delay: 1.34s">a</tspan>
         <tspan class="char" style="animation-delay: 1.46s">m</tspan>
         <tspan class="char" style="animation-delay: 1.58s"> </tspan>
-        <tspan class="char" style="animation-delay: 1.70s">K</tspan>
-        <tspan class="char" style="animation-delay: 1.82s">u</tspan>
-        <tspan class="char" style="animation-delay: 1.94s">m</tspan>
-        <tspan class="char" style="animation-delay: 2.06s">a</tspan>
-        <tspan class="char" style="animation-delay: 2.18s">r</tspan>
-        <tspan class="char" style="animation-delay: 2.30s"> </tspan>
-        <tspan class="char" style="animation-delay: 2.42s">R</tspan>
-        <tspan class="char" style="animation-delay: 2.54s"> </tspan>
-        <tspan class="char" style="animation-delay: 2.66s">S</tspan>
-        <tspan class="char" style="animation-delay: 2.78s">h</tspan>
-        <tspan class="char" style="animation-delay: 2.90s">e</tspan>
-        <tspan class="char" style="animation-delay: 3.02s">t</tspan>
+        <!-- Start of large gradient name typing -->
+        <tspan class="name-gradient" font-size="18">
+          <tspan class="char" style="animation-delay: 1.70s">K</tspan>
+          <tspan class="char" style="animation-delay: 1.82s">u</tspan>
+          <tspan class="char" style="animation-delay: 1.94s">m</tspan>
+          <tspan class="char" style="animation-delay: 2.06s">a</tspan>
+          <tspan class="char" style="animation-delay: 2.18s">r</tspan>
+          <tspan class="char" style="animation-delay: 2.30s"> </tspan>
+          <tspan class="char" style="animation-delay: 2.42s">R</tspan>
+          <tspan class="char" style="animation-delay: 2.54s"> </tspan>
+          <tspan class="char" style="animation-delay: 2.66s">S</tspan>
+          <tspan class="char" style="animation-delay: 2.78s">h</tspan>
+          <tspan class="char" style="animation-delay: 2.90s">e</tspan>
+          <tspan class="char" style="animation-delay: 3.02s">t</tspan>
+        </tspan>
       </text>
       <!-- Moving cursor during typing -->
       <rect class="typing-cursor" x="0" y="-12" width="8" height="15" fill="#e6edf3"/>
@@ -170,14 +178,14 @@
     <!-- Details Group (fades in after second prompt) -->
     <g class="fade-line" transform="translate(25, 155)">
       <!-- Details Table Output -->
-      <text y="10"><tspan class="key">Name:</tspan><tspan x="100" class="val">Kumar R Shet</tspan></text>
-      <text y="35"><tspan class="key">Role:</tspan><tspan x="100" class="val">AI/ML Engineer | ML Researcher | Open Source Enthusiast</tspan></text>
-      <text y="60"><tspan class="key">Focus:</tspan><tspan x="100" class="val">Scalable AI Systems | ML Inference Optimization | Production Deployments</tspan></text>
-      <text y="85"><tspan class="key">Location:</tspan><tspan x="100" class="val">Bengaluru, India</tspan></text>
+      <text y="15"><tspan class="key">Name:</tspan><tspan x="100" class="name-gradient" font-size="22">Kumar R Shet</tspan></text>
+      <text y="42"><tspan class="key">Role:</tspan><tspan x="100" class="val">AI/ML Engineer | ML Researcher | Open Source Enthusiast</tspan></text>
+      <text y="67"><tspan class="key">Focus:</tspan><tspan x="100" class="val">Scalable AI Systems | ML Inference Optimization | Production Deployments</tspan></text>
+      <text y="92"><tspan class="key">Location:</tspan><tspan x="100" class="val">Bengaluru, India</tspan></text>
       
       <!-- Blinking cursor at the very end of terminal -->
-      <rect class="cursor" x="0" y="103" width="8" height="15" fill="#e6edf3"/>
-      <text x="15" y="115" class="prompt">guest@profile:~$</text>
+      <rect class="cursor" x="0" y="110" width="8" height="15" fill="#e6edf3"/>
+      <text x="15" y="122" class="prompt">guest@profile:~$</text>
     </g>
   </g>
 </svg>

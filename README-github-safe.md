@@ -26,14 +26,7 @@
 <br/><br/>
 
 <!-- GitHub Live Stats Section -->
-<p align="center">
-  <img src="https://github-readme-stats.shion.dev/api?username=Imkumar80&theme=dark&hide_border=true&include_all_commits=false&count_private=false" alt="GitHub stats" />
-  &nbsp;&nbsp;
-  <img src="https://streak-stats.demolab.com/?user=Imkumar80&theme=dark&hide_border=true" alt="GitHub streak" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Imkumar80&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Top languages" />
-</p>
+<img src="./assets/gh-stats.svg" width="800" alt="GitHub Stats Terminal" />
 
 <br/><br/>
 
