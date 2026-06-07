@@ -31,7 +31,7 @@
 <br/><br/>
 
 <!-- Footer Section (Contact & Exit Terminal) -->
-<img src="./assets/footer.svg?v=2" width="800" alt="Footer Terminal" />
+<img src="./assets/term-footer.svg" width="800" alt="Footer Terminal" />
 
 <br/><br/>
 
