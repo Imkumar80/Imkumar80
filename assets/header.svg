@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="330" viewBox="0 0 800 330">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
   <defs>
     <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#93c5fd" />
@@ -116,7 +116,7 @@
 
   <g filter="url(#shadow)">
     <!-- Terminal Background -->
-    <rect width="800" height="330" fill="#0d1117" rx="12" ry="12" stroke="#30363d" stroke-width="1.5"/>
+    <rect width="800" height="340" fill="#0d1117" rx="12" ry="12" stroke="#30363d" stroke-width="1.5"/>
     
     <!-- Header/Title Bar -->
     <path d="M 0,12 A 12,12 0 0,1 12,0 L 788,0 A 12,12 0 0,1 800,12 L 800,36 L 0,36 Z" fill="#161b22"/>
@@ -154,13 +154,14 @@
     <g class="fade-line" transform="translate(25, 175)">
       <!-- Details Table Output -->
       <text y="15"><tspan class="key">Name:</tspan><tspan x="100" class="name-gradient" style="font-weight: bold; font-size: 22px;">Kumar R Shet</tspan></text>
-      <text y="42"><tspan class="key">Role:</tspan><tspan x="100" class="val">AI/ML Engineer | ML Researcher | Open Source Enthusiast</tspan></text>
-      <text y="67"><tspan class="key">Focus:</tspan><tspan x="100" class="val">Scalable AI Systems | ML Inference Optimization | Production Deployments</tspan></text>
-      <text y="92"><tspan class="key">Location:</tspan><tspan x="100" class="val">Bengaluru, India</tspan></text>
+      <text y="42"><tspan class="key">Education:</tspan><tspan x="100" class="val">JSSATE-Bengaluru</tspan></text>
+      <text y="69"><tspan class="key">Role:</tspan><tspan x="100" class="val">AI/ML Engineer | ML Researcher | Open Source Enthusiast</tspan></text>
+      <text y="96"><tspan class="key">Focus:</tspan><tspan x="100" class="val">Scalable AI Systems | ML Inference Optimization | Production Deployments</tspan></text>
+      <text y="123"><tspan class="key">Location:</tspan><tspan x="100" class="val">Bengaluru, India</tspan></text>
       
       <!-- Blinking cursor at the very end of terminal -->
-      <rect class="cursor" x="0" y="110" width="8" height="15" fill="#e6edf3"/>
-      <text x="15" y="122" class="prompt">guest@profile:~$</text>
+      <rect class="cursor" x="0" y="141" width="8" height="15" fill="#e6edf3"/>
+      <text x="15" y="153" class="prompt">guest@profile:~$</text>
     </g>
   </g>
 </svg>
