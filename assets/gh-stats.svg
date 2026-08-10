@@ -74,11 +74,11 @@
     
     <!-- Live stats data (fades in) -->
     <g class="stats-sec" transform="translate(25, 95)">
-      <text y="5"><tspan class="key">Contributions (YTD):</tspan><tspan x="180" class="val" font-weight="bold">162 (Public &amp; Private)</tspan></text>
-      <text y="30"><tspan class="key">├─ Commits:</tspan><tspan x="180" class="val">100</tspan></text>
-      <text y="50"><tspan class="key">├─ Pull Requests:</tspan><tspan x="180" class="val">0</tspan></text>
+      <text y="5"><tspan class="key">Contributions (YTD):</tspan><tspan x="180" class="val" font-weight="bold">204 (Public &amp; Private)</tspan></text>
+      <text y="30"><tspan class="key">├─ Commits:</tspan><tspan x="180" class="val">176</tspan></text>
+      <text y="50"><tspan class="key">├─ Pull Requests:</tspan><tspan x="180" class="val">3</tspan></text>
       <text y="70"><tspan class="key">├─ Issues:</tspan><tspan x="180" class="val">0</tspan></text>
-      <text y="90"><tspan class="key">└─ Private Activity:</tspan><tspan x="180" class="val">51 contributions</tspan></text>
+      <text y="90"><tspan class="key">└─ Private Activity:</tspan><tspan x="180" class="val">14 contributions</tspan></text>
       
       <!-- Trailing prompt -->
       <text x="0" y="115" class="prompt">guest@profile:~$</text>
