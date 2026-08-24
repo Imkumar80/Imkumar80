@@ -41,9 +41,10 @@
 </div>
 
 <div align="center">
-<table>
-<tr>
-<td width="52%" valign="top">
+
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjV3cnJ2dzVreHl1cjFnMzViZXo1aHd4Z2hxYndpZWUxemQxYWZ4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c0PX1PqTeqhbtKMekM/giphy.gif" width="600" alt="cyberpunk runner"/>
+
+<br/><br/>
 
 ```javascript
 // ◈ NETRUNNER PROFILE — IMKUMAR ◈
@@ -89,15 +90,6 @@ const runner = {
   weakness    : "Too many ideas. Not enough tabs.",
 };
 ```
-
-</td>
-<td width="48%" valign="middle" align="center">
-
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjV3cnJ2dzVreHl1cjFnMzViZXo1aHd4Z2hxYndpZWUxemQxYWZ4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c0PX1PqTeqhbtKMekM/giphy.gif" width="340" alt="cyberpunk runner"/>
-
-</td>
-</tr>
-</table>
 
 </div>
 
