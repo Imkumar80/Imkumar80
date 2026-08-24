@@ -54,7 +54,7 @@ const runner = {
   location    : "Earth",
   affiliation : "Independent",
 
-  role        : "AWS Student Builder Group Lead at JSSATE-B",
+  "current role" : "AWS Student Builder Group Lead at JSSATE-B",
   experience  : [
     "Former ML Research Intern @ IISc Bengaluru",
     "Ex-AI Engineering Intern @ CoE-Resonav"
