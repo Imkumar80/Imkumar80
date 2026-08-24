@@ -57,7 +57,7 @@ const runner = {
   role        : "AWS Student Builder Group Lead at JSSATE-B",
   experience  : [
     "Former ML Research Intern @ IISc Bengaluru",
-    "Ex-AI Engineering Intern @ CoE-Resonav (Failed Startup)"
+    "Ex-AI Engineering Intern @ CoE-Resonav"
   ],
 
   jack_in     : [
