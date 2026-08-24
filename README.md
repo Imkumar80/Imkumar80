@@ -44,6 +44,8 @@
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjV3cnJ2dzVreHl1cjFnMzViZXo1aHd4Z2hxYndpZWUxemQxYWZ4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/c0PX1PqTeqhbtKMekM/giphy.gif" width="600" alt="cyberpunk runner"/>
 
+</div>
+
 <br/><br/>
 
 ```javascript
@@ -90,8 +92,6 @@ const runner = {
   weakness    : "Too many ideas. Not enough tabs.",
 };
 ```
-
-</div>
 
 <div align="center">
 
