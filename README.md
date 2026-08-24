@@ -73,12 +73,12 @@ const runner = {
     "🎯 GenAI           — LLMs + Diffusion Models",
     "📊 Data Systems    — Qdrant + PostgreSQL + Redis",
     "☁️ Cloud & Backend  — AWS + FastAPI + Docker",
-    "🔧 ML Engineering  — Fine-tuning + Evaluation"
+    "🔧 ML Engineering  — Fine-tuning + Evaluation",
+    "⚙️ Efficient LLMs  — Learning building efficient LLMs through quantization and inference"
   ],
 
   building    : [
     "🧬 LEVI — Vectorless Memory for AI Agents",
-    "⚙️ Efficient LLMs — Quantization + Inference",
     "🔬 AI Systems — From Research to Production",
   ],
 
@@ -147,10 +147,6 @@ const runner = {
 
 </td>
 <td width="50%" valign="top" align="center">
-
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExenpuYzdsMDQ5cTUyYmZ0dXB5MmV3d2lyb3RpZG0zcG9lbmR1cTR0ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uNzGan0eVgvmZfH6H5/giphy.gif" width="320" alt="edgerunners"/>
-
-<br/>
 
 #### `[ 03 ]` FRAMEWORKS
 ![Langchain](https://img.shields.io/badge/▸_Langchain-FFE600?style=flat-square&logo=langchain&logoColor=000)
