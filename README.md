@@ -14,8 +14,8 @@
 
 ### ◈ learn . build . lead ◈
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=20&pause=900&color=FFE600&center=true&vCenter=true&random=false&width=680&lines=%3E+INITIALIZING+IMKUMAR.EXE..." />
-<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=20&pause=900&color=FF9900&center=true&vCenter=true&random=false&width=680&lines=%3E+LOADING+FULL+STACK+MODULES......;%3E+INJECTING+DEVOPS+PROTOCOLS....;%3E+COMPILING+NEXT.JS+%2B+NODE+%2B+DOCKER...;%3E+ALL+SYSTEMS+NOMINAL+%E2%9C%94" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=20&pause=900&color=FFE600&center=true&vCenter=true&random=false&width=680&lines=%3E+INITIALIZING+IMKUMAR.AI..." />
+<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=20&pause=900&color=FF9900&center=true&vCenter=true&random=false&width=680&lines=%3E+LOADING+LLM+WEIGHTS......;%3E+INJECTING+RAG+PROTOCOLS....;%3E+BUILDING+MULTI-AGENT+SYSTEMS...;%3E+ALL+SYSTEMS+NOMINAL+%E2%9C%94" />
 
 <br/>
 
