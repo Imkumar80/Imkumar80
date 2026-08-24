@@ -18,7 +18,7 @@
 │              ███████║   ██║   ██║  ██║██║  ██║██║  ██╗              │
 │              ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝              │
 │                                                          v2.0.77    │
-│  [ SYSTEM ONLINE ]  [ STACK: MERN + DEVOPS ]  [ STATUS: HIRING ]    │
+│  [ SYSTEM ONLINE ]  [ STACK: AI/ML + DEVOPS ] [ STATUS: HIRING ]    │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -208,7 +208,7 @@ const runner = {
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="100%" valign="top" align="center">
 
 ### 🧬 [`LEVI`](https://github.com/Imkumar80/Levi)
 ```text
@@ -219,47 +219,6 @@ STATUS : ◈ BUILDING
 > Vector-less Memory Infrastructure for AI Agents.
 
 ![Python](https://img.shields.io/badge/Python-FFE600?style=flat-square&logo=python&logoColor=000)
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 [`ChatMate AI`](https://github.com/Imkumar80/ChatMate_AI)
-```text
-TYPE   : AI Chat Application
-LANG   : TypeScript
-STATUS : ◈ ACTIVE
-```
-> Real-time AI-powered chat with WebSockets, intelligent responses, and sleek modern interface.
-
-![TypeScript](https://img.shields.io/badge/TypeScript-FFE600?style=flat-square&logo=typescript&logoColor=000)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔐 [`TeraFortress`](https://github.com/Imkumar80/TeraFortress)
-```text
-TYPE   : Security Application
-LANG   : JavaScript
-STATUS : ◈ SHIPPED
-```
-> Security-hardened architecture. Every system needs walls and watchtowers.
-
-![JavaScript](https://img.shields.io/badge/JavaScript-FF9900?style=flat-square&logo=javascript&logoColor=000)
-
-</td>
-<td width="50%" valign="top">
-
-### 🕷️ [`WebScrapping`](https://github.com/Imkumar80/WebScrapping)
-```text
-TYPE   : Data Extraction Utilities
-LANG   : JavaScript
-STATUS : ◈ SHIPPED
-```
-> Extraction toolkit. When the site won't give you the data — you take it anyway.
-
-![JavaScript](https://img.shields.io/badge/JavaScript-FF9900?style=flat-square&logo=javascript&logoColor=000)
 
 </td>
 </tr>
@@ -361,7 +320,7 @@ STATUS : ◈ SHIPPED
 <td width="50%" valign="middle" align="center">
 
 ```javascript
-// "Talent can be found anywhere in stellerStark.
+// "Talent can be found anywhere in the Net.
 //  You just have to know where to look."
 // "They said automate everything.
 //  So I automated the doubt too."
