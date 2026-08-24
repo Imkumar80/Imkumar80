@@ -49,15 +49,17 @@
 // ◈ NETRUNNER PROFILE — IMKUMAR ◈
 
 const runner = {
-  handle      : "ImKumar",
+  handle      : "Imkumar80",
   realName    : "Kumar R Shet",
   location    : "Earth",
   affiliation : "Independent",
 
+  role        : "AWS Student Builder Group Lead at JSSATE-B",
+  experience  : "Former ML Research Intern @ IISc Bengaluru",
+
   jack_in     : [
-    "Artificial Intelligence",
-    "Machine Learning",
     "Deep Learning",
+    "Generative AI",
     "AI Systems"
   ],
 
@@ -65,13 +67,14 @@ const runner = {
     "🧠 AI Models      — PyTorch + Transformers",
     "🤖 Agent Systems   — RAG + Memory + Tool Use",
     "⚡ Model Inference — Quantization + GPU Optimization",
+    "🎯 GenAI           — LLMs + Diffusion Models",
     "📊 Data Systems    — Qdrant + PostgreSQL + Redis",
     "☁️ Cloud & Backend  — AWS + FastAPI + Docker",
     "🔧 ML Engineering  — Fine-tuning + Evaluation"
   ],
 
   building    : [
-    "🧬 LEVI — vector less Memory Infrastructure for AI Agents",
+    "🧬 LEVI — Vectorless Memory for AI Agents",
     "⚙️ Efficient LLMs — Quantization + Inference",
     "🔬 AI Systems — From Research to Production",
   ],
@@ -198,23 +201,23 @@ const runner = {
 
 </div>
 
-<table>
-<tr>
-<td width="100%" valign="top" align="center">
+<div align="center">
 
 ### 🧬 [`LEVI`](https://github.com/Imkumar80/Levi)
+
 ```text
 TYPE   : AI Infrastructure
 LANG   : Python
 STATUS : ◈ BUILDING
 ```
+
 > Vector-less Memory Infrastructure for AI Agents.
+
+<br/>
 
 ![Python](https://img.shields.io/badge/Python-FFE600?style=flat-square&logo=python&logoColor=000)
 
-</td>
-</tr>
-</table>
+</div>
 
 <div align="center">
 
